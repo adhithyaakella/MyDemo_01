@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="FeaFolder",glue="stepDef22july",tags= {"@Smoke"},
+@cucumber.api.CucumberOptions(features="FeaFolder",glue="stepDef22july",tags= {"@Smoke"},
 plugin={"pretty","json:target/cucumber.json","html:target/cucumber-htmlreport.html"})
 public class TestRunner {
 
